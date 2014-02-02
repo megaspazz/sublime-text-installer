@@ -3,10 +3,10 @@
 	[
 		"/run/user/1000/gvfs/sftp:host=node.zoo.cs.yale.edu,user=ezp2/home/accts/ezp2/cs422/labs/pios"
 	],
-	"last_window_id": 2,
+	"last_window_id": 3,
 	"settings":
 	{
-		"new_window_height": 946.0,
+		"new_window_height": 945.0,
 		"new_window_settings":
 		{
 			"auto_complete":
@@ -26,7 +26,7 @@
 			},
 			"console":
 			{
-				"height": 0.0
+				"height": 125.0
 			},
 			"distraction_free":
 			{
@@ -39,10 +39,16 @@
 			},
 			"file_history":
 			[
+				"/run/user/1000/gvfs/sftp:host=node.zoo.cs.yale.edu,user=ezp2/home/accts/ezp2/cs422/labs/pios/kern/mem.c",
+				"/run/user/1000/gvfs/sftp:host=node.zoo.cs.yale.edu,user=ezp2/home/accts/ezp2/cs422/labs/pios/kern/cons.c",
+				"/run/user/1000/gvfs/sftp:host=node.zoo.cs.yale.edu,user=ezp2/home/accts/ezp2/cs422/labs/pios/CODING",
+				"/home/epejka/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+				"/home/epejka/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+				"/home/epejka/.config/sublime-text-2/Packages/User/Preferences.sublime-settings"
 			],
 			"find":
 			{
-				"height": 0.0
+				"height": 34.0
 			},
 			"find_in_files":
 			{
@@ -142,46 +148,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/run/user/1000/gvfs/sftp:host=node.zoo.cs.yale.edu,user=ezp2/home/accts/ezp2/cs422/labs/pios/kern/init.c",
-					"settings":
-					{
-						"buffer_size": 3930,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/run/user/1000/gvfs/sftp:host=node.zoo.cs.yale.edu,user=ezp2/home/accts/ezp2/cs422/labs/pios/kern/spinlock.h",
-					"settings":
-					{
-						"buffer_size": 1191,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/run/user/1000/gvfs/sftp:host=node.zoo.cs.yale.edu,user=ezp2/home/accts/ezp2/cs422/labs/pios/kern/spinlock.c",
-					"settings":
-					{
-						"buffer_size": 3056,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/epejka/Documents/Projects/polyfit/app/views/users/_form.html.erb",
-					"settings":
-					{
-						"buffer_size": 876,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/run/user/1000/gvfs/sftp:host=node.zoo.cs.yale.edu,user=ezp2/home/accts/ezp2/cs422/labs/pios/inc/x86.h",
-					"settings":
-					{
-						"buffer_size": 7311,
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"command_palette":
@@ -244,153 +210,11 @@
 				"whole_word": false,
 				"wrap": true
 			},
-			"folders":
-			[
-				{
-					"path": "/run/user/1000/gvfs/sftp:host=node.zoo.cs.yale.edu,user=ezp2/home/accts/ezp2/cs422/labs/pios"
-				}
-			],
 			"groups":
 			[
 				{
-					"selected": 3,
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/run/user/1000/gvfs/sftp:host=node.zoo.cs.yale.edu,user=ezp2/home/accts/ezp2/cs422/labs/pios/kern/init.c",
-							"settings":
-							{
-								"buffer_size": 3930,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1680,
-										1680
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/C++/C.tmLanguage",
-									"translate_tabs_to_spaces": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 540.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/run/user/1000/gvfs/sftp:host=node.zoo.cs.yale.edu,user=ezp2/home/accts/ezp2/cs422/labs/pios/kern/spinlock.h",
-							"settings":
-							{
-								"buffer_size": 1191,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										327,
-										327
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/C++/C++.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/run/user/1000/gvfs/sftp:host=node.zoo.cs.yale.edu,user=ezp2/home/accts/ezp2/cs422/labs/pios/kern/spinlock.c",
-							"settings":
-							{
-								"buffer_size": 3056,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										269,
-										269
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/C++/C.tmLanguage",
-									"translate_tabs_to_spaces": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 3,
-							"file": "/home/epejka/Documents/Projects/polyfit/app/views/users/_form.html.erb",
-							"settings":
-							{
-								"buffer_size": 876,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										525,
-										525
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 4,
-							"file": "/run/user/1000/gvfs/sftp:host=node.zoo.cs.yale.edu,user=ezp2/home/accts/ezp2/cs422/labs/pios/inc/x86.h",
-							"settings":
-							{
-								"buffer_size": 7311,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										5661,
-										5661
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/C++/C++.tmLanguage",
-									"translate_tabs_to_spaces": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 3717.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -425,7 +249,7 @@
 				]
 			},
 			"menu_visible": true,
-			"position": "0,0,0,0,0,1680,0,2640,945,3600,985",
+			"position": "0,0,0,0,0,2094,92,3054,980,3600,985",
 			"replace":
 			{
 				"height": 0.0
@@ -453,7 +277,7 @@
 			"side_bar_visible": true,
 			"side_bar_width": 150.0,
 			"status_bar_visible": true,
-			"window_id": 2,
+			"window_id": 3,
 			"workspace_name": ""
 		}
 	],
