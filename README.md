@@ -15,21 +15,51 @@ I do not own any part of Sublime Text.  The versions of Sublime Text 2 &amp; 3 u
 Usage
 -----
 
-To install the current version packaged in this repo, run the following (you will have to put in your root password when it prompts you for it):
+### Preliminary
+
+Make sure all of the files are runnable (maybe you don't have to do this):
 
 ``` sh
 $ chmod a+x *.sh
+```
+
+### Install Sublime Text
+
+To install the current version packaged in this repo, run the following:
+
+``` sh
 $ sudo ./install-sublime.sh
 ```
+
+You may have to put in your root password.
+
+### Get Sublime Text
 
 To package your currently installed version (which probably contains some of your personal preferences and modifications), run:
 
 ``` sh
-$ chmod a+x *.sh
 $ ./get-sublime.sh
 ```
 
 Mske sure that you aren't 'root' when doing this.  Also don't 'sudo' this command, either.
+
+### Uninstall Local Copy
+
+To remove the current version of Sublime Text that this program uses to install, run:
+
+``` sh
+$ ./clean-sublime.sh
+```
+
+### Uninstall Sublime Text
+
+To uninstall a version of Sublime Text that was installed using these scripts, run:
+
+``` sh
+$ sudo ./uninstall-sublime
+```
+
+You may have to put in your root password.
 
 Final notes
 -----------
