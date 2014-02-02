@@ -12,14 +12,14 @@ DSK_DIR=/usr/local/share/applications
 # Get the binaries
 echo "* Getting the binaries from: $LOC_BIN"
 mkdir -p bin
-cp -rf "$LOC_BIN/Sublime Text 2" 'bin/Sublime Text 2'
-cp -rf "$LOC_BIN/Sublime Text 3" 'bin/Sublime Text 3'
+cp -rf "$LOC_BIN/Sublime Text 2" bin
+cp -rf "$LOC_BIN/Sublime Text 3" bin
 
 # Get the config files
 echo "* Getting configs from: $CFG_DIR"
 mkdir -p config
-cp -rf "$CFG_DIR/sublime-text-2" config/sublime-text-2
-cp -rf "$CFG_DIR/sublime-text-3" config/sublime-text-3
+cp -rf "$CFG_DIR/sublime-text-2" config
+cp -rf "$CFG_DIR/sublime-text-3" config
 
 # Get the .desktop files
 echo "* Getting the .desktop files from: $DSK_DIR"
