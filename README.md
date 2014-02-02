@@ -15,17 +15,11 @@ I do not own any part of Sublime Text.  The versions of Sublime Text 2 &amp; 3 u
 Usage
 -----
 
-To install the current version packaged in this repo, run:
+To install the current version packaged in this repo, run the following (you will have to put in your root password when it prompts you for it):
 
 ``` sh
 $ chmod a+x *.sh
-$ ./install-sublime.sh
-```
-
-You will probably have to be root to install (unless you want to install to another directory, in which case you can just edit the shell script):
-
-``` sh
-$ su
+$ sudo ./install-sublime.sh
 ```
 
 To package your currently installed version (which probably contains some of your personal preferences and modifications), run:
@@ -35,8 +29,11 @@ $ chmod a+x *.sh
 $ ./get-sublime.sh
 ```
 
-You may or may not have to be root to do this as well.
+Mske sure that you aren't 'root' when doing this.  Also don't 'sudo' this command, either.
 
-Final note
-----------
+Final notes
+-----------
+
 If you choose to modify the *.sh files, and then it won't correctly create the *.desktop files correctly.  You'll have to manually edit them to have them point to the correct install directory.
+
+By default, it will only copy and overwrite conflicting files, but will leave all other files.  To do a clean install, make sure you manually delete all of the old files before running the scripts.
