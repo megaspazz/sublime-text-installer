@@ -1,10 +1,10 @@
 {
 	"licensed": false,
-	"startup_sec": 0.695032,
+	"startup_sec": 0.583994,
 	"syntax":
 	{
 		"HTML (Rails)": 4,
-		"Ruby": 4
+		"Ruby": 6
 	},
 	"time": 1391303182
 }
