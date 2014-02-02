@@ -31,7 +31,9 @@ $ ./get-sublime.sh
 
 Mske sure that you aren't 'root' when doing this.  Also don't 'sudo' this command, either.
 
-Final note
-----------
+Final notes
+-----------
 
 If you choose to modify the *.sh files, and then it won't correctly create the *.desktop files correctly.  You'll have to manually edit them to have them point to the correct install directory.
+
+By default, it will only copy and overwrite conflicting files, but will leave all other files.  To do a clean install, make sure you manually delete all of the old files before running the scripts.
