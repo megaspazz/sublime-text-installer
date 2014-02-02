@@ -12,7 +12,7 @@ DSK_DIR=/usr/local/share/applications
 # Install the binaries
 echo "* Installing the binaries to: $LOC_BIN"
 mkdir -p bin
-cp -rf 'bin/Sublime Text 2' "$LOC_BIN/Sublime Text 3"
+cp -rf 'bin/Sublime Text 2' "$LOC_BIN/Sublime Text 2"
 cp -rf 'bin/Sublime Text 3' "$LOC_BIN/Sublime Text 3"
 
 # Create symbolic links in $LOC_BIN

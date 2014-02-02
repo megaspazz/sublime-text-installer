@@ -12,7 +12,7 @@ DSK_DIR=/usr/local/share/applications
 # Get the binaries
 echo "* Getting the binaries from: $LOC_BIN"
 mkdir -p bin
-cp -rf "$LOC_BIN/Sublime Text 3" 'bin/Sublime Text 2'
+cp -rf "$LOC_BIN/Sublime Text 2" 'bin/Sublime Text 2'
 cp -rf "$LOC_BIN/Sublime Text 3" 'bin/Sublime Text 3'
 
 # Get the config files
